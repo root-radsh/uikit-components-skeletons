@@ -5,7 +5,11 @@
   justify-content: center;
   text-align: center;
 }
-
+.base{
+  padding: 10px;
+  height: 20px;
+  width: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

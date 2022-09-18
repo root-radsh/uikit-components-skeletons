@@ -1,12 +1,20 @@
-import './App.css';
-import { Main } from './components/Main/Main';
-import { Skeleton } from './components/Skeleton/Skeleton';
+import "./App.css";
+import { Main } from "./components/Main/Main";
+import { Skeleton } from "./components/skeletons/Skeleton/Skeleton";
 
 function App() {
   return (
     <div className="App">
       <Main>
-        <Skeleton/>
+        <div className="base">
+          <Skeleton type="avatar"/>
+          <Skeleton />
+          <Skeleton />
+          <Skeleton />
+          <Skeleton />
+          <Skeleton />
+
+        </div>
       </Main>
     </div>
   );
